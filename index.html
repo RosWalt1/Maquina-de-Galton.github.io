@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Máquina de Galton - Distribución Binomial</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <h1>Máquina de Galton - Distribución Binomial</h1>
+    <label for="trials">Número de ensayos:</label>
+    <input type="number" id="trials" value="10">
+    <br>
+    <label for="probability">Probabilidad de éxito (0-1):</label>
+    <input type="number" id="probability" step="0.01" value="0.5">
+    <br>
+    <button onclick="runSimulation()">Simular</button>
+    <div id="galton-board"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
